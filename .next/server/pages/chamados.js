@@ -52,8 +52,7 @@ function Chamados({
     marca: '',
     modelo: '',
     defeito: '',
-    fechado: 'NÃO',
-    tecnico: ''
+    fechado: 'NÃO'
   });
   const {
     0: response,
@@ -104,8 +103,7 @@ function Chamados({
           marca: '',
           modelo: '',
           defeito: '',
-          fechado: '',
-          tecnico: ''
+          fechado: ''
         });
       }
     } catch (err) {
