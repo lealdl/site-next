@@ -53,6 +53,7 @@ function Chamados({ data }) {
                     mensagem: responseEnv.mensagem
                 });
                 setContent({
+                    id:'',
                     nome: '',
                     whatsapp: '',
                     endereco: '',
@@ -60,7 +61,8 @@ function Chamados({ data }) {
                     marca: '',
                     modelo: '',
                     defeito: '',
-                    fechado: ''
+                    fechado: '',
+                    tecnico:''
                 })
             }
         } catch (err) {
