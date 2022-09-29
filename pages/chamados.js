@@ -15,7 +15,8 @@ function Chamados({ data }) {
         marca: '',
         modelo: '',
         defeito: '',
-        fechado: 'NÃO'
+        fechado: 'NÃO',
+        tecnico:''
     });
 
     const [response, setResponse] = useState({

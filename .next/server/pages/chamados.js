@@ -52,7 +52,8 @@ function Chamados({
     marca: '',
     modelo: '',
     defeito: '',
-    fechado: 'NÃO'
+    fechado: 'NÃO',
+    tecnico: ''
   });
   const {
     0: response,
