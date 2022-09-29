@@ -52,7 +52,8 @@ function Chamados({
     marca: '',
     modelo: '',
     defeito: '',
-    fechado: 'NÃO'
+    fechado: 'NÃO',
+    tecnico: ''
   });
   const {
     0: response,
@@ -103,7 +104,8 @@ function Chamados({
           marca: '',
           modelo: '',
           defeito: '',
-          fechado: ''
+          fechado: '',
+          tecnico: ''
         });
       }
     } catch (err) {
@@ -255,6 +257,16 @@ function Chamados({
                     placeholder: "Digite seu nome",
                     onChange: onChangeInput,
                     value: content.nome,
+                    required: true
+                  })
+                }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                  className: "field name",
+                  children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                    type: "text",
+                    name: "tecnico",
+                    placeholder: "Nome do T\xE9cnico",
+                    onChange: onChangeInput,
+                    value: content.tecnico,
                     required: true
                   })
                 }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {

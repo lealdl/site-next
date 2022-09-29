@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/xfc_geHsMCg_PSYuV0rIQ/_buildManifest.js",
-    "static/xfc_geHsMCg_PSYuV0rIQ/_ssgManifest.js"
+    "static/Ac1IT9ZeJ0YvgZNtPEUMr/_buildManifest.js",
+    "static/Ac1IT9ZeJ0YvgZNtPEUMr/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -32,7 +32,7 @@
       "static/chunks/webpack-ddd010a953737b6e3536.js",
       "static/chunks/framework-b97a0ed4f13ff8397343.js",
       "static/chunks/main-b9780dc6f4fa7abb3771.js",
-      "static/chunks/pages/chamados-1ace3671496e1c870bda.js"
+      "static/chunks/pages/chamados-3da8066a93dbd77c71f3.js"
     ],
     "/contato": [
       "static/chunks/webpack-ddd010a953737b6e3536.js",

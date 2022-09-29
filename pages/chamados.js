@@ -15,7 +15,8 @@ function Chamados({ data }) {
         marca: '',
         modelo: '',
         defeito: '',
-        fechado: 'NÃO'
+        fechado: 'NÃO',
+        tecnico: ''
     });
 
     const [response, setResponse] = useState({
@@ -53,7 +54,7 @@ function Chamados({ data }) {
                     mensagem: responseEnv.mensagem
                 });
                 setContent({
-                    
+
                     nome: '',
                     whatsapp: '',
                     endereco: '',
@@ -61,7 +62,8 @@ function Chamados({ data }) {
                     marca: '',
                     modelo: '',
                     defeito: '',
-                    fechado: ''
+                    fechado: '',
+                    tecnico: ''
                 })
             }
         } catch (err) {
@@ -146,7 +148,7 @@ function Chamados({ data }) {
                                     <label className="sub-title">Equipamento: </label>
                                     <select name="equipamento" onChange={onChangeInput} value={content.equipamento}>
 
-                                        <option className='select-tipo'value="" >Tipo de Equipamento</option>
+                                        <option className='select-tipo' value="" >Tipo de Equipamento</option>
                                         <option value="Desktop">Desktop</option>
                                         <option value="Notebook">Notebook</option>
                                         <option value="Outro">Outro</option>
@@ -161,6 +163,11 @@ function Chamados({ data }) {
                                     <div className="field name">
                                         <input type="text" name="nome" placeholder="Digite seu nome" onChange={onChangeInput} value={content.nome} required />
                                     </div>
+
+                                    <div className="field name">
+                                        <input type="text" name="tecnico" placeholder="Nome do Técnico" onChange={onChangeInput} value={content.tecnico} required />
+                                    </div>
+
                                     <div className="field text">
                                         <input type="text" name="whatsapp" placeholder="Digite seu WhatsApp" onChange={onChangeInput} value={content.whatsapp} required />
                                     </div>
