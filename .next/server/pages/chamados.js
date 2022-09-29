@@ -103,7 +103,8 @@ function Chamados({
           marca: '',
           modelo: '',
           defeito: '',
-          fechado: ''
+          fechado: '',
+          tecnico: ''
         });
       }
     } catch (err) {
