@@ -53,7 +53,7 @@ function Chamados({ data }) {
                     mensagem: responseEnv.mensagem
                 });
                 setContent({
-                    id:'',
+                    
                     nome: '',
                     whatsapp: '',
                     endereco: '',
