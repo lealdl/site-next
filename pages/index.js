@@ -97,7 +97,7 @@ function Home({ data }) {
 }
 
 export async function getServerSideProps() {
-    const response = await fetch(`https://back-end-adm.herokuapp.com/view-home`);
+    const response = await fetch(`https://luciano1925.c37.integrator.host/view-home`);
     //const response = await fetch(`http://ch-coder.ddns.net:8090/view-home`);
     const data = await response.json();
     //console.log(data);

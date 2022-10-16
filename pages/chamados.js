@@ -207,7 +207,7 @@ function Chamados({ data }) {
 }
 
 export async function getServerSideProps() {
-    const response = await fetch(`https://back-end-adm.herokuapp.com/view-content-chamados`);
+    const response = await fetch(`https://luciano1925.c37.integrator.host/view-content-chamados`);
     const data = await response.json();
     //console.log(data);
 
