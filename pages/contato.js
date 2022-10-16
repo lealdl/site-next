@@ -84,6 +84,7 @@ function Contato({ data }) {
                     <h2 className="title">{data.dataContact.title_contact}</h2>
                     <div className="contact-content">
                         <div className="column left">
+                        <img src="/dev-mobile.jpg" alt="Sobre Empresa" />
                             <p>{data.dataContact.desc_contact}</p>
                             <div className="icons">
                                 <div className="row">

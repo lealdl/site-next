@@ -96,6 +96,7 @@ function Chamados({ data }) {
                     <h2 className="title">{data.dataChamados.title_chamados}</h2>
                     <div className="chamados-content">
                         <div className="column left">
+                        <img src="/dev-mobile.jpg" alt="Sobre Empresa" />
                             <p>{data.dataChamados.desc_chamados}</p>
                             <div className="icons">
                                 <div className="row">
