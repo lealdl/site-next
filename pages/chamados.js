@@ -33,7 +33,7 @@ function Chamados({ data }) {
         setResponse({ formSave: true });
 
         try {
-            const res = await fetch('https://back-end-adm.herokuapp.com/add-chamado', {
+            const res = await fetch('https://luciano1925.c37.integrator.host/add-chamado', {
                 method: 'POST',
                 body: JSON.stringify(content),
                 headers: { 'Content-Type': 'application/json' }
