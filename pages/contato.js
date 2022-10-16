@@ -28,7 +28,7 @@ function Contato({ data }) {
         setResponse({formSave: true});
 
         try {
-            const res = await fetch('https://back-end-adm.herokuapp.com/add-msg-contact', {
+            const res = await fetch('https://luciano1925.c37.integrator.host/add-msg-contact', {
                 method: 'POST',
                 body: JSON.stringify(content),
                 headers: { 'Content-Type': 'application/json' }
