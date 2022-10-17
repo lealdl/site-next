@@ -7,14 +7,10 @@
     text-decoration: none;
 }
 
-/*html, body{
-    height: 100%;
-}*/
 
 body{
     background-color: #0c0f16;
-    /*display: flex;
-    flex-direction: column;*/
+   
 }
 
 .max-width{
@@ -35,11 +31,12 @@ body{
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 10px 0;
+    padding: 3px 0;
     font-family: 'Share Tech Mono', monospace;
     /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
-    background-color: #121721;
-    border-bottom: solid #1b202a 1px;
+    /*background-color: #121721;*/
+    background-color: #988e75;
+    border-bottom: solid #ae9c69 1px;
 }
 
 .navbar .max-width{
@@ -159,6 +156,8 @@ body{
 .top .top-content a:hover{
     color: #ffffff;
     background: #2c2c2c;
+    
+    
 }
 
 .services{
@@ -298,8 +297,8 @@ body{
 }
 
 footer{
-    background: #121721;
-    padding: 25px 23px;
+    background: #988e75;
+    padding: 15px 23px;
     color: #fff;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
@@ -307,10 +306,10 @@ footer{
     margin-top: auto;
 }
 footer span a{
-    color: #547ec7;
+    color: #fff;
 }
 footer span a:hover{
-    color: #fff;
+    color: #d7b94b;
 }
 
 .about{
@@ -561,8 +560,9 @@ footer span a:hover{
     text-align: center;
     margin-bottom: 10px;
     padding-top: 30px;
-    font-weight: 400;
+    font-weight:100;
     font-size: 30px;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .right form .button-area button{
