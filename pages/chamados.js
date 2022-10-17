@@ -165,9 +165,7 @@ function Chamados({ data }) {
                                         <input type="text" name="nome" placeholder="Digite seu nome" onChange={onChangeInput} value={content.nome} required />
                                     </div>
 
-                                    <div className="field name">
-                                        <input type="text" name="tecnico" placeholder="Nome do Técnico" onChange={onChangeInput} value={content.tecnico} required />
-                                    </div>
+                                   
 
                                     <div className="field text">
                                         <input type="text" name="whatsapp" placeholder="Digite seu WhatsApp" onChange={onChangeInput} value={content.whatsapp} required />
