@@ -177,10 +177,10 @@ function Chamados({ data }) {
                                     </div>
 
                                     <div className="field text">
-                                        <input type="text" name="marca" placeholder="Digite a marca do equipamento" onChange={onChangeInput} value={content.marca} />
+                                        <input type="text" name="marca" placeholder="Digite a marca do equipamento (opcional)" onChange={onChangeInput} value={content.marca} />
                                     </div>
                                     <div className="field text">
-                                        <input type="text" name="modelo" placeholder="Digite o modelo do equipamento" onChange={onChangeInput} value={content.modelo} />
+                                        <input type="text" name="modelo" placeholder="Digite o modelo do equipamento (opcional)" onChange={onChangeInput} value={content.modelo} />
                                     </div>
                                 </div>
 
