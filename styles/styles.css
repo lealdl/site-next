@@ -31,7 +31,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 3px 0;
+    padding: 10px 0;
     font-family: 'Share Tech Mono', monospace;
     /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
     /*background-color: #121721;*/
