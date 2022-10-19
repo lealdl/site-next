@@ -29,13 +29,15 @@ function Home({ data }) {
                 </style>
                 <div className="max-width">
                     <div className="top-content">
-                        <div className="text-1">{data.dataHome.title_top_one }</div>
+                        <div className="text-1">{data.dataHome.title_top_one}</div>
                         <div className="text-2">{data.dataHome.title_top_two}</div>
                         <div className="text-3">{data.dataHome.title_top_three}</div>
                         <a href={data.dataHome.btn_link_top}>{data.dataHome.btn_text_top}</a>
                     </div>
                 </div>
             </section>
+
+           
 
             <section className="services">
                 <div className="max-width">
@@ -45,22 +47,29 @@ function Home({ data }) {
                             <div className="box">
                                 <i className={data.dataHome.ser_icon_one}></i>
                                 <div className="text">{data.dataHome.ser_title_one}</div>
+                                <img src="/app_chamados.png" alt="Sobre Empresa" />
                                 <p>{data.dataHome.ser_desc_one}</p>
                             </div>
                         </div>
 
                         <div className="card">
+                        
                             <div className="box">
+                            
                                 <i className={data.dataHome.ser_icon_two}></i>
+                                
                                 <div className="text">{data.dataHome.ser_title_two}</div>
+                                <img src="/desenvolvimento.jpg" alt="Sobre Empresa" />
                                 <p>{data.dataHome.ser_desc_two}</p>
                             </div>
                         </div>
 
                         <div className="card">
+
                             <div className="box">
                                 <i className={data.dataHome.ser_icon_three}></i>
                                 <div className="text">{data.dataHome.ser_title_three}</div>
+                                <img src="/website.jpg" alt="Sobre Empresa" />
                                 <p>{data.dataHome.ser_desc_three}</p>
                             </div>
                         </div>
@@ -71,10 +80,11 @@ function Home({ data }) {
             <section className="premium">
                 <div className="max-width">
                     <h2 className="title">{data.dataHome.title_ser_prem}</h2>
+                    
                     <div className="premium-content">
                         <div className="column left">
-                            
-                            <img src={data.urlImage + data.dataHome.image_ser_prem} alt="Serviço premium" />                        
+
+                            <img src={data.urlImage + data.dataHome.image_ser_prem} alt="Serviço premium" />
                         </div>
                         <div className="column right">
                             <div className="text">
