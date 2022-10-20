@@ -42,8 +42,8 @@ function Projetos({ data }) {
                             
                                 <i className={data.dataHome.ser_icon_two}></i>
                                 
-                                <div className="text">Sistema Web Chamados Técnicos</div>
-                                <img src="/dev-mobile.jpg" alt="Sobre Empresa" />
+                                <div className="text">Sistema Web Chamados</div>
+                                <img src="/chamados_web.png" alt="Sobre Empresa" />
                                 <p>O cliente realiza um chamado pelo site e o mesmo é enviado para um servidor.</p>
                             </div>
                         </div>
